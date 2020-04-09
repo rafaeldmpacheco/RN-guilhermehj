@@ -67,3 +67,20 @@ O **App** a aplicação ***Web*** deverá conter 4 páginas:
 - Sinta-se livre para usar outras dependências dentro do seu projeto como por exemplo Material-UI NativeBase;
 - Vise desenhar uma arquitetura que reaproveite a maior quantidade de código entre o mobile e a web sem criar limitações de experiência entre as duas plataformas;
 - Neste desafio não estamos pedindo a realização e estruturação de testes já que o objetivo desse teste é validar como você estrutura a sua aplicação usando react e react native. Mas caso deseje fazer testes para a sua aplicação fique a vontade. Aqui utilizamos Jest e Enzyme para o desenvolvimento dos nossos testes.
+
+#Rodando o projeto
+
+Para rodar o projeto são necessários alguns passos:
+- Entrar na pasta `/packages/common` e rodar o commando `yarn build` 
+- Em seguida rodar `yarn install` no root do repositório.
+- Instalar a ferramenta `expo` com `npm install -g expo-cli` (https://docs.expo.io/versions/latest/)
+
+Mobile:
+- Em seguida para rodar o app basta rodar o comando `yarn start` dentro do folder `/packages/mobile`;
+- Deverá abrir uma pagina web com um QR Code e o mesmo QR Code vai ser exibido no terminal.
+- Para emular o app existem 2 opções:
+    - Baixar o app do Expo no seu celular e, no caso que seja Android, fazer o scan do QR Code através do app. Caso for iOS pode-se usar a camera diretamente.
+    - Emular ele em um emulador no XCode ou Android Studio pressionando a letra `a` no terminal após a aplicação buildar e o emulador estiver rodando.
+    
+Web: 
+- Apenas rodar `yarn start` dentro do folder `/packages/web`

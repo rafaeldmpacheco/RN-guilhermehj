@@ -68,7 +68,7 @@ O **App** a aplicação ***Web*** deverá conter 4 páginas:
 - Vise desenhar uma arquitetura que reaproveite a maior quantidade de código entre o mobile e a web sem criar limitações de experiência entre as duas plataformas;
 - Neste desafio não estamos pedindo a realização e estruturação de testes já que o objetivo desse teste é validar como você estrutura a sua aplicação usando react e react native. Mas caso deseje fazer testes para a sua aplicação fique a vontade. Aqui utilizamos Jest e Enzyme para o desenvolvimento dos nossos testes.
 
-#Rodando o projeto
+# Rodando o projeto
 
 Para rodar o projeto são necessários alguns passos:
 - Entrar na pasta `/packages/common` e rodar o commando `yarn build` 
